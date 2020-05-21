@@ -1,5 +1,7 @@
 extends layout.pug
-
+block variables
+  - var Name = name
+  - var Description = short_description
 block content 
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back

@@ -24,6 +24,7 @@ app.get('/' , (req , res)=>{
 app.get('/projects/:id' , (req , res)=>{
   // console.log(req.params.id)
   res.render("project" , {
+    ...data.myInfo,
     ...data.projects[req.params.id - 1]
   })
 })
