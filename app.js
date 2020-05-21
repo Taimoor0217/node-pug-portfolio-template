@@ -38,3 +38,6 @@ app.get('/about' , (req , res)=>{
 app.listen(PORT, () => {
   console.log(`Server started at port ${PORT}!`);
 });
+// Rather than hardcoding any information inside the pug templates I have added all the information here and then I used this JSON to populate the
+// pug varaibles in the templates. I also had to slightly modify the pug templtaes for this.
+//Similarly, to changes any images, one can simply replace the relevant images in the images folder.
