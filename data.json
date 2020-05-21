@@ -1,0 +1,42 @@
+{
+    "myInfo": {
+        "name": "Taimoor Ali",
+        "short_description": "This portfolio is a marketing document meant to demonstrate myriad skills including...",
+        "long_description" : "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+        "header_message": "Hey Prospective Employer!",
+        "github_link": "https://github.com",
+        "linkedin_link": "https://linkedin.com",
+        "twitter_link": "https://twitter.com",
+        "number": "090078601",
+        "email": "ping@pong.com"
+    },
+    "projects": [
+        {
+            "id": 1,
+            "project_name": "Things of internet",
+            "description": "This is the description for project 1, edit the data.json file to chnage the description",
+            "technologies": ["express" , "pug" , "mysql" , "nodejs"],
+            "live_link" : "https://example.com",
+            "github_link": "https://github.com/Code-and-Response/Project-Sample",
+            "image_urls": ["main_p1.jpeg" , "img1_p1.jpeg" , "img2_p1.jpeg" , "img3_p1.jpeg"]
+        },
+        {
+            "id": 2,
+            "project_name": "Project Manager",
+            "description": "This is the description for project 2, edit the data.json file to chnage the description",
+            "technologies": ["express" , "pug" , "mysql" , "nodejs"],
+            "live_link" : "https://example.com",
+            "github_link": "https://github.com/Code-and-Response/Project-Sample",
+            "image_urls": ["main_p2.jpeg" , "img1_p2.jpeg" , "img2_p2.jpeg" , "img3_p2.jpeg"]
+        },
+        {
+            "id": 3,
+            "project_name": "Pat a tap",
+            "description": "This is the description for project 1, edit the data.json file to chnage the description",
+            "technologies": ["express" , "pug" , "mysql" , "nodejs"],
+            "live_link" : "https://example.com",
+            "github_link": "https://github.com/Code-and-Response/Project-Sample",
+            "image_urls": ["main_p3.jpeg" , "img1_p3.jpeg" , "img2_p3.jpeg" , "img3_p3.jpeg"]
+        }
+    ]
+}
